@@ -6,9 +6,12 @@
 - Works with Python 3.8
 - Dependencies installed via Pyenv and Poetry
 
+<img src="https://user-images.githubusercontent.com/1907805/168153991-1fe4f0bb-9b25-49f8-9c87-c957a4300060.png" alt="Test for GPU Support" width="600" height="auto" />
+
 # Before doing anything else
 
 - Install Homebrew
+    - Run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 - Run `brew install hdf5 pyenv pyenv-virtualenv`
 - Run `export HDF5_DIR="$(brew --prefix hdf5)";`
 - Add the following lines to your `~/.zprofile` file if using Zsh or `~/.bash_profile` file if using Bash (you can check Zsh vs Bash by typing `echo $SHELL` in your terminal):
@@ -35,4 +38,6 @@
 # Troubleshooting
 
 - H5Py
-    - If you have an issue with H5Py, install with `pip install --no-binary=h5py h5py`
+    - If you have an issue with H5Py:
+        - Make sure you have run `export HDF5_DIR="$(brew --prefix hdf5)";`
+        - install with `pip install --no-binary=h5py h5py`
