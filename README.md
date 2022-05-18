@@ -1,8 +1,9 @@
 # What is this repo?
 
-- Quick start boilerplate for working with Tensorflow on Macbook Air M1 (ARM-64 architecture)
-- Uses Metal to access the GPU capabilities within Tensorflow
+- Quick start boilerplate for GPU acceleration working with Tensorflow and PyTorch on Macbook Air M1 (ARM-64 architecture)
+- Uses Metal to access the GPU capabilities
 - Doesn't require Conda / Miniforge
+- Doesn't need a Jupyter notebook
 - Works with Python 3.8
 - Dependencies installed via Pyenv and Poetry
 
@@ -31,9 +32,15 @@
 - Check that `python --version` says `3.8.10` and `which python` says something like `/Users/.../.pyenv/shims/python`
 - Finally, `cd` to the directory with the `pyproject.toml` file, then run `poetry install`
 
-# Getting Started
+# Getting Started with TensorFlow
 
 - After following steps above in "Before anything else" section, running `poetry run tf` should execute the code in `src/tf.py`
+
+# Getting Started with PyTorch
+
+- Checkout the `torch` branch to get the PyTorch code
+- Run `poetry run torch` to check if everything is working
+- Modify `tensorexperiments/torch.py` as needed
 
 # Troubleshooting
 
