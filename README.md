@@ -42,6 +42,7 @@
 - Run `poetry install` to get the Nightly build of PyTorch
 - Run `poetry run torch` to check if everything is working
 - Modify `tensorexperiments/torch.py` as needed
+- You will want to use `torch.device('mps')` to leverage GPU capabilities
 
 # Troubleshooting
 
