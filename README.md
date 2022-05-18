@@ -39,6 +39,7 @@
 # Getting Started with PyTorch
 
 - Checkout the `torch` branch to get the PyTorch code
+- Run `poetry install` to get the Nightly build of PyTorch
 - Run `poetry run torch` to check if everything is working
 - Modify `tensorexperiments/torch.py` as needed
 
