@@ -73,6 +73,7 @@ Werkzeug = "2.1.2"
 wrapt = "1.14.1"
 zipp = "3.8.0"
 tensorflow-metal = "^0.4.0"
+torch = { url = "https://download.pytorch.org/whl/nightly/cpu/torch-1.12.0.dev20220518-cp38-none-macosx_11_0_arm64.whl", platform = "darwin", markers = "platform_machine == 'arm64'" }
 
 [tool.poetry.dev-dependencies]
 
@@ -82,3 +83,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 tf = 'tensorexperiments.tf:main'
+torch = 'tensorexperiments.torch:main'
