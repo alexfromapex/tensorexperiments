@@ -38,8 +38,8 @@
 
 # Getting Started with PyTorch
 
-- Checkout the `torch` branch to get the PyTorch code
-- Run `poetry install` to get the Nightly build of PyTorch
+- If you want *only* PyTorch and its dependencies, check out the `torch` branch
+- Run `poetry install` to install the Nightly build of PyTorch
 - Run `poetry run torch` to check if everything is working
 - Modify `tensorexperiments/torch.py` as needed
 - You will want to use `torch.device('mps')` to leverage GPU capabilities
