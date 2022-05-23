@@ -6,6 +6,7 @@ authors = ["Alex Watson <alexfromapex@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
+typing-extensions = "*"
 torch = { url = "https://download.pytorch.org/whl/nightly/cpu/torch-1.13.0.dev20220523-cp38-none-macosx_11_0_arm64.whl", platform = "darwin", markers = "platform_machine == 'arm64'" }
 
 [tool.poetry.dev-dependencies]
