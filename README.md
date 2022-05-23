@@ -34,6 +34,7 @@
 
 # Getting Started with TensorFlow
 
+- Checkout `master` branch
 - After following steps above in "Before anything else" section, running `poetry run tf` should execute the code in `src/tf.py`
 
 # Getting Started with PyTorch
